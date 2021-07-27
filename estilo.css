@@ -1,0 +1,195 @@
+*{
+	font-family: 'Roboto', sans-serif;
+	
+}
+body{
+	width: 100%;
+	background: #262626;
+}
+.navbar{
+	height: 150px;
+	
+	padding: 10px;
+	display: flex;
+    flex-direction: column;
+    align-items: center ;
+    
+    gap: 12px;
+    margin-bottom: 20px;
+
+
+
+
+}
+.topnav{
+	height: 80px;
+	width: 80px;
+	min-height: 80px;
+	margin: 5px;
+	display: inline-block;
+}
+.topnav a{
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.topnav img{
+	width: 100%;
+    height: 100%; 
+}
+.topnav img:active{
+	height: 80%;
+	width: 80%;
+
+}
+.topnav-buttons{
+	height: 120px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	
+	gap: 20px;
+	/*background: blue;*/
+
+}
+.topnav-buttons__shop{
+	padding: 7px;
+	text-decoration: none;
+	font-weight: 570;
+	color: #999999;
+	background: #1a1a1a;
+	border: 1px #0d0d0d ;
+	border-radius: 6px;
+	font-size: 15px;
+	box-shadow: 3px 3px #0d0d0d;
+	
+
+}
+.topnav-buttons__store{
+	padding: 7px;
+	text-decoration: none;
+	font-weight: 570;
+	color: #999999;
+	background: #1a1a1a;
+	border-radius: 6px;
+	font-size: 15px;
+	border: 1px #0d0d0d ;
+	box-shadow: 3px 3px #0d0d0d;
+	
+}
+.topnav-buttons__shop:active {
+    color:black;
+    background: #bfbfbf;
+    box-shadow: 3px 3px white;
+    /*margin: 13px 0px 23px 0px;*/
+
+}
+.topnav-buttons__store:active {
+    color:black;
+    background: #bfbfbf;
+    box-shadow: 3px 3px white;
+    /*margin: 13px 0px 23px 13px;*/
+}
+
+
+
+
+
+
+
+
+.gallery{
+	
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: max-content;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	flex-wrap: wrap;
+
+}
+.gallery .gallery-item{
+	width:  400px;
+	height: 600px;
+	border-radius: 7px;
+	background: #1a1a1a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+
+}
+.gallery .gallery-item img{
+	width: 380px;
+	height: 580px;
+	border-radius: 7px;
+}
+
+
+
+
+
+
+
+
+
+.joinus{
+	height: 250px;
+	margin-top: 20px;
+	
+	display: flex;
+	flex-direction: column;
+}
+.joinus-logo{
+	height: 130px;
+	
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.joinus-logo img{
+	height: 100%;
+
+}
+.joinus-email{
+
+	height: 80px;
+	background: #0d0d0d;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+.joinus-email input{
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	height: 40px;
+	width: 300px;
+	padding: 10px;
+	font-size: 12px ;
+	background: #999999;
+
+}
+.joinus-email input:hover{
+	border: 1px solid rgba(0, 0, 0, 1);
+	}
+
+.joinus-email a{
+	text-decoration: none;
+	background: black;
+	color: white;
+	height: 40px;
+	width: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	font-size: 12px;
+
+}
